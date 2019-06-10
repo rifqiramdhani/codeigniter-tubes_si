@@ -1,0 +1,45 @@
+
+.font-cc{
+	font-size: 15pt;
+	color: #f1f1f1;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	background-color: #fff!important;
+	font-size: 11pt;
+}
+
+
+p{
+	font-size: 13pt;
+}
+.main-footer{
+	background-color: #f1f1f1!important;
+}
+
+.bg-footer{
+	background-color: #357CA6!important;
+	color: #fff!important;
+	font-size: 11pt;
+}
+.bg-footer a{
+	color: #000;
+}
+/* NAVBAR */
+
+.dropdown-menu{
+	margin-top: 12px!important;
+}
+/* CONTENT */
+/* Change Default */
+.alert-info {
+    color: #fff!important;
+    background-color: #1BCC86!important;
+    border-color: #1BCC86!important;
+}
+
+
+/*MEDIA MODE*/
+
+}
