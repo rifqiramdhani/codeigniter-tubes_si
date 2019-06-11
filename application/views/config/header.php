@@ -28,3 +28,6 @@
     <!-- fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
   </head>
+  
+  <body class="hold-transition skin-blue sidebar-mini">
+  	<div class="wrapper">
