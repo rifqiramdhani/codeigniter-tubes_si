@@ -9,9 +9,8 @@
     <!-- Light Bootstrap Table Core javascript and methods for Demo purpose -->
 	<script src="<?= base_url(); ?>assets/js/light-bootstrap-dashboard.js?v=1.4.0"></script>
 
-	<!-- Animate Velocity -->
-    <script type="text/javascript" src="<?= base_url(); ?>assets/js/velocity.min.js"></script>
-    <script type="text/javascript" src="<?= base_url(); ?>assets/js/velocity.ui.js"></script>
+    <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+	<script src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap.min.js"></script>
 
     <script>
         $(document).ready(function(){
@@ -20,7 +19,6 @@
                                 duration: 1500
                             });
         });
-
     </script>
 
 </html>

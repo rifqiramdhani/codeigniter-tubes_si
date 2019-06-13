@@ -14,8 +14,20 @@
         <ul class="sidebar-menu">
 
             <li class="treeview">
-                <a href="#">
+                <a href="<?= base_url('home') ?>">
                     <i class="glyphicon glyphicon-home clr-icon"></i> <span>Home</span>
+                </a>
+            </li>
+
+            <li class="treeview">
+                <a href="<?= base_url('buku') ?>">
+                    <i class="glyphicon glyphicon-book clr-icon"></i> <span>Buku</span>
+                </a>
+            </li> 
+
+            <li class="treeview">
+                <a href="<?= base_url('peminjaman') ?>">
+                    <i class="glyphicon glyphicon-list-alt clr-icon"></i> <span>Peminjaman</span>
                 </a>
             </li>
 
