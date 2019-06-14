@@ -30,6 +30,12 @@
                     <i class="glyphicon glyphicon-list-alt clr-icon"></i> <span>Peminjaman</span>
                 </a>
             </li>
+         
+            <li class="treeview">
+                <a href="<?= base_url('pengembalian') ?>">
+                    <i class="glyphicon glyphicon-list-alt clr-icon"></i> <span>Pengembalian</span>
+                </a>
+            </li>
 
             <li class="treeview">
                 <a href="#">

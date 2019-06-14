@@ -12,10 +12,20 @@
 <!-- admin LTE js -->
 <script src="<?= base_url('assets/js/app.min.js') ?>"></script>
 
+<!-- datatable -->
+<script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap.min.js"></script>
+
 <!-- velocity animation -->
 <script type="text/javascript" src="<?= base_url(); ?>assets/js/velocity.min.js"></script>
 <script type="text/javascript" src="<?= base_url(); ?>assets/js/velocity.ui.js"></script>
 
+<script>
+	$(document).ready(function() {
+		$('#dataTable').DataTable();
+	});
+</script>
 
 </body>
+
 </html>

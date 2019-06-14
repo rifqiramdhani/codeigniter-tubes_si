@@ -28,9 +28,6 @@ p{
 }
 /* NAVBAR */
 
-.dropdown-menu{
-	margin-top: 12px!important;
-}
 /* CONTENT */
 /* Change Default */
 .alert-info {
@@ -40,6 +37,11 @@ p{
 }
 
 
-/*MEDIA MODE*/
+.panel-default {
+    border-color: #09f!important;
+    border-radius: 0px!important;
+}
 
+.tengah{
+	text-align: center;
 }

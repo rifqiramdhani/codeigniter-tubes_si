@@ -10,40 +10,32 @@
     <section class="content">
         <div class="row">
             <div class="col-md-12 col-xs-12 col-md-12">
+                <p align="right">
+                    <a href="#" data-toggle="modal" data-target="#modalTambah" class="btn btn-info"><i class="	glyphicon glyphicon-plus"></i> Tambah</a>
+                </p>
                 <div class="table-responsive">
-                    <table class="table table-striped">
+                    <table class="table table-striped" id="dataTable">
                         <thead>
                             <tr>
-                                <th>NO</th>
-                                <th>Judul</th>
-                                <th>Kategori</th>
+                                <th class="tengah">Kode Buku</th>
+                                <th class="tengah">Judul</th>
+                                <th class="tengah">Kategori</th>
+                                <th class="tengah">Action</th>
                             </tr>
                         </thead>
 
                         <tbody>
-                            <tr>
-                                <td>1</td>
-                                <td>E-COMMERCE MEMAHAMI PERDAGANGAN MODERN DI DUNIA MAYA</td>
-                                <td>Manajemen Proyek</td>
-                            </tr>
-
-                            <tr>
-                                <td>2</td>
-                                <td>SQL SERVER UNTUK PROFESSIONAL 2000</td>
-                                <td>Web</td>
-                            </tr>
-
-                            <tr>
-                                <td>3</td>
-                                <td>10 JENIS KONEKSI DELPHI KE DATABASE</td>
-                                <td>Pemograman</td>
-                            </tr>
-
-                            <tr>
-                                <td>4</td>
-                                <td>10 LANGKAH SEDERHANA MENGUASAI MANIPULASI FOTO DIGITAL DENGAN ADOBE PHOTOSHOP CS4</td>
-                                <td>Multimedia</td>
-                            </tr>
+                            <?php foreach ($buku as $getData) : ?>
+                                <tr>
+                                    <td><?= $getData->kode_buku; ?></td>
+                                    <td><?= $getData->judul; ?></td>
+                                    <td><?= $getData->kode_kategori; ?></td>
+                                    <td>
+                                        <a href="#" data-toggle="modal" data-target="#modalUbah" class="btn btn-info"><i class="glyphicon glyphicon-pencil"></i> </a>
+                                        <a href="#" data-toggle="modal" data-target="#modalHapus" class="btn btn-danger"><i class="glyphicon glyphicon-trash"></i> </a>
+                                    </td>
+                                </tr>
+                            <?php endforeach; ?>
                         </tbody>
                     </table>
                 </div>
